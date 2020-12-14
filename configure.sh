@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # V2Ray new configuration
-mkdir /etc/v2ray
-touch /etc/v2ray/config.json
-cat <<-EOF > /etc/v2ray/config.json
+mkdir /etc/mykin
+touch /etc/mykin/config.json
+cat <<-EOF > /etc/mykin/config.json
 {
   "inbounds": [
   {
@@ -20,7 +20,7 @@ cat <<-EOF > /etc/v2ray/config.json
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
-        "path": "${V2_PATH}"
+        "path": "${mykin_PATH}"
       }
     }
   }
