@@ -29,7 +29,7 @@ RUN apk add -U tzdata \
 && ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime \
 && echo ${TZ} > /etc/timezone
 # v2ray配置文件
-ENV CONFIG=https://raw.githubusercontent.com/danxiaonuo/v2ray-kintohub/master/config.json
+ENV CONFIG=https://raw.githubusercontent.com/lonuslan/my-kin/master/config.json
 # 拷贝v2ray二进制文件至临时目录
 COPY --from=builder /tmp/v2ray.tgz /tmp
 
