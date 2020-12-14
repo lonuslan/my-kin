@@ -1,22 +1,22 @@
 {
-	"name": "V2Ray",
-	"description": "Deploy V2ray on kintohub.",
-	"keywords": ["V2Ray"],
+	"name": "mykin",
+	"description": "Deploy mykin on kintohub.",
+	"keywords": ["mykin"],
 	"env": {
 		"UUID": {
-			"description": "V2Ray UUID",
-			"value": "f011c012-5f1d-418c-9494-d24d77a9d8f9"
+			"description": "mykin UUID",
+			"value": "a6b5ba5e-472d-45ad-9acb-6d1e3626adca"
 		},
                 "ALTER_ID": {
-			"description": "V2Ray alterId",
+			"description": "mykin alterId",
 			"value": "520"
 		},
-                "V2_PATH": {
-			"description": "V2Ray path",
-			"value": "/xiaonuo"
+                "mykin_PATH": {
+			"description": "mykin path",
+			"value": "/mykin"
 		}
 	},
-	"website": "https://www.danxiaonuo.com/",
-	"repository": "https://github.com/danxiaonuo/v2ray-heroku",
+	"website": "mykin.lonuslan.ga",
+	"repository": "https://github.com/lonuslan/my-kin",
 	"stack": "container"
 }
